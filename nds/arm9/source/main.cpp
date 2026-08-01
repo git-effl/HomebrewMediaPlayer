@@ -424,7 +424,7 @@ ITCM_CODE void renderFrames(void) {
 		currentScreenBrightness = screenBrightness;
 	}
 
-	if (!videoPlaying || (currentFrame > loadedFrames)) goto renderFrames_end;
+	if (!videoPlaying || (currentFrame >= loadedFrames)) goto renderFrames_end;
 
 	if (!displayFrame) {
 		frameOfRefreshRate++;
