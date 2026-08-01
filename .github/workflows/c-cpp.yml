@@ -13,11 +13,14 @@ jobs:
     container: skylyrac/blocksds:slim-v1.16.0
     steps:
     - uses: actions/checkout@v4
+    - name: Setup environment
+      run: git config --global safe.directory '*'
     - name: make
       id: make
       working-directory: nds
-      run: make
-           chmod +x make_cia
+      run: |
+       make
+       chmod +x make_cia
     - name: Publish build to GH Actions
       uses: actions/upload-artifact@v4
       with:
