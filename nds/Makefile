@@ -10,8 +10,8 @@ BLOCKSDSEXT	?= /opt/blocksds/external
 
 NAME		:= RocketVideoPlayer
 
-GAME_TITLE	:= Rocket Video Player
-GAME_AUTHOR	:= Rocket Robz
+GAME_TITLE	:= Homebrew Media Player
+GAME_AUTHOR	:= Rocket Robz / effL
 GAME_ICON	:= icon.png
 
 # DLDI and internal SD slot of DSi
@@ -34,11 +34,6 @@ NITROFSDIR	?=
 MAKE		:= make
 RM		:= rm -rf
 
-ifeq ($(OS),Windows_NT)
-MAKECIA 	?= ./make_cia.exe
-
-else
-MAKECIA 	?= ./make_cia
 
 endif
 
@@ -55,8 +50,6 @@ endif
 # --------------
 
 ROM			:= $(NAME).nds
-ROM_DSI		:= $(NAME).dsi
-ROM_CIA		:= $(NAME).cia
 
 # Targets
 # -------
