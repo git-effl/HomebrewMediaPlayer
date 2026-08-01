@@ -10,7 +10,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container: skylyrac/blocksds:slim-v1.16.0
+    container: devkitpro/devkitarm:20241104
     steps:
     - uses: actions/checkout@v4
     - name: make
