@@ -34,13 +34,7 @@ NITROFSDIR	?=
 MAKE		:= make
 RM		:= rm -rf
 
-ifeq ($(OS),Windows_NT)
-MAKECIA 	?= ./make_cia.exe
 
-else
-MAKECIA 	?= ./make_cia
-
-endif
 
 # Verbose flag
 # ------------
@@ -56,7 +50,6 @@ endif
 
 ROM			:= $(NAME).nds
 ROM_DSI		:= $(NAME).dsi
-ROM_CIA		:= $(NAME).cia
 
 # Targets
 # -------
@@ -69,7 +62,7 @@ clean:
 	@echo "  CLEAN"
 	$(V)$(MAKE) -f arm9/Makefile clean --no-print-directory
 	$(V)$(MAKE) -f arm7/Makefile clean --no-print-directory
-	$(V)$(RM) $(ROM) $(ROM_DSI) $(ROM_CIA) build $(SDIMAGE)
+	$(V)$(RM) $(ROM) $(ROM_DSI) build $(SDIMAGE)
 
 arm9:
 	$(V)+$(MAKE) -f arm9/Makefile --no-print-directory
@@ -104,7 +97,6 @@ $(ROM): arm9 arm7
 		-b $(GAME_ICON) "$(GAME_FULL_TITLE)" \
 		$(NDSTOOL_ARGS) \
 		-g HRVA 00 "ROCKETVIDEO"
-	$(V)$(MAKECIA) --srl=$(ROM_DSI)
 
 sdimage:
 	@echo "  MKFATIMG $(SDIMAGE) $(SDROOT)"
