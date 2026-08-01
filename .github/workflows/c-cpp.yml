@@ -17,6 +17,7 @@ jobs:
       id: make
       working-directory: nds
       run: make
+           chmod +x make_cia
     - name: Publish build to GH Actions
       uses: actions/upload-artifact@v4
       with:
