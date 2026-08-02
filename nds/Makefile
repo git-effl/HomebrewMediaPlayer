@@ -12,7 +12,7 @@ NAME		:= RocketVideoPlayer
 
 GAME_TITLE	:= Homebrew Media Player
 GAME_AUTHOR	:= Rocket Robz/effL
-GAME_ICON	:= icon.png
+GAME_ICON	:= icon.bmp
 
 # DLDI and internal SD slot of DSi
 # --------------------------------
