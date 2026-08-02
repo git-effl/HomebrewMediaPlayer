@@ -1,7 +1,5 @@
 <p align="center">
- <img src="https://github.com/RocketRobz/RocketVideoPlayer/blob/master/resources/logo.png"><br>
-  <a href="https://gbatemp.net/threads/release-rocket-video-player-play-videos-with-the-ultimate-in-picture-quality.539163/">
-   <img src="https://img.shields.io/badge/GBAtemp-Thread-blue.svg" alt="GBAtemp Thread">
+ <img src="https://github.com/git-effl/HomebrewMediaPlayer/blob/master/resources/logo.png"><br>
   </a>
 </p>
 
