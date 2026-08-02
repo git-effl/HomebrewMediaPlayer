@@ -13,7 +13,7 @@ To play videos, you'll need to convert them to the Rocket Video (`.rvid`) format
     - Screen color filters are not supported for 16 BPP videos.
 - Support for dual-screen videos!
 - Support for audio up to 32khz Stereo.
-- A video UI based from the "Nintendo DSi + Internet" app.
+- A video UI based from the "Nintendo DSi + Internet" app. With it being 100% made from scratch!
 - Console-based file browser to search for your `.rvid` file.
 
 ## GBA version
