@@ -21,6 +21,8 @@ To play videos, you'll need to convert them to the Rocket Video (`.rvid`) format
 - Both 8 BPP (256 colors) and 16 BPP (RGB555/RGB565) videos are supported.
 - Support for audio up to 32khz Mono.
 
+# Known bugs
+- Some letters may not display correctly or won't display,if you wanna contribute,you can fix it,but its MANDATORY to use the Ubuntu font.
 # Video UI Controls
 
 Touch controls not available in the GBA version
