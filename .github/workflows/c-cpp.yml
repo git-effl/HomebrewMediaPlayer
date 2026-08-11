@@ -20,9 +20,10 @@ jobs:
       working-directory: nds
       run: |
        make
+       mkdir HMP/
     - name: Publish build to GH Actions
       uses: actions/upload-artifact@v4
       with:
         path: |
-          RocketVideoPlayer.nds
-          RocketVideoPlayer.dsi
+          HMP/RocketVideoPlayer.nds
+          HMP/RocketVideoPlayer.dsi
