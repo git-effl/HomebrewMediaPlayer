@@ -45,6 +45,8 @@ Touch controls not available in the GBA version
 - [Gericom](https://github.com/Gericom):
 	- Frame rate + play bar adjustment code from [FastVideoDSPlayer](https://github.com/Gericom/FastVideoDSPlayer)
 	- NDMA code from [libtwl](https://github.com/Gericom/libtwl)
+ - Dalton Maag: for the Ubuntu font family.
+ - The Noto Project Authors: for the Noto Sans font family.
 
 ## GBA version
 - [devkitPro](https://github.com/devkitPro): libgba and sound frequency code from libnds
