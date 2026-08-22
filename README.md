@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://github.com/git-effl/HomebrewMediaPlayer/blob/master/resources/logo.png"><br>
+ <img src="https://github.com/git-effl/RocketVideoPlayer/blob/master/resources/logo.png"><br>
   </a>
 </p>
 
